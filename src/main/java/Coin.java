@@ -1,6 +1,7 @@
 public abstract class Coin implements Icalculate {
     public abstract double getValue();
-
-    public interface calculate {
+    
+     @Override
+    public abstract double calculate(double amount);
     }
 }

@@ -3,6 +3,10 @@ public class CoinFactory {
         switch (coin){
             case ILS:
                 return new ILS();
+            case USD:
+                return new USD();
+            case EURO:
+                return new EURO();
         }
         return null;
     }
